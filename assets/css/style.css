@@ -253,7 +253,7 @@ p {
 .projects-text {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--gap-space);
+  gap: 80px;
   counter-reset: grid-counter;
 }
 
@@ -265,17 +265,17 @@ p {
 .projects-text p {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   margin-top: 1rem;
 }
 
 .projects-content a h3 {
   color: black;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .projects-content a h3:hover {
-  color: var(--light-gray-color);
+  color: white;
 }
 
 .projects-img {
@@ -283,6 +283,7 @@ p {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .projects-img img {
