@@ -166,7 +166,7 @@ h2 {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--gap-space);
+  gap: 80px;
   min-height: 100vh;
 }
 
