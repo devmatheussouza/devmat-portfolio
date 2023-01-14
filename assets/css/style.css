@@ -1,8 +1,8 @@
 /* ----- Global "variables" ----- */
 :root {
-  --primary-color: rgb(6, 12, 32);
+  --primary-color: #060c20;
   --light-gray-color: rgba(238, 238, 238, 0.847);
-  --secondary-color: rgb(228, 2, 47);
+  --secondary-color: #e4022f;
   --gap-space: 30px;
 }
 
@@ -195,6 +195,18 @@ p {
   margin-bottom: 4rem;
 }
 
+.ufpr-link {
+  outline: none;
+  transition: 1s ease;
+  color: var(--primary-color);
+}
+
+.ufpr-link:hover {
+  font-weight: bolder;
+  transition: 1s ease;
+  color: var(--light-gray-color);
+}
+
 .hello {
   outline: none;
   font-weight: 600;
@@ -209,7 +221,7 @@ p {
   transition: 1s ease;
 }
 
-/* ----- About me ----- */
+/* ..... About me ..... */
 
 .about-me-content {
   max-width: 100rem;
@@ -229,7 +241,7 @@ p {
   font-size: 4.5rem;
 }
 
-/* ----- Projects ----- */
+/* ..... Projects ..... */
 
 .projects-content {
   display: flex;
@@ -294,6 +306,93 @@ p {
 
 #log-img {
   border: 5px solid black;
+}
+
+/* ..... Contact ..... */
+
+.contact-content {
+  max-width: 64rem;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.contacts-container {
+  margin-top: 2rem;
+}
+
+.contact-content h2,
+p {
+  text-align: center;
+}
+
+.contact-text {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 2.5rem;
+}
+
+.contact-email,
+.contact-social {
+  margin: 30px 0px;
+}
+
+.contact-content span {
+  position: relative;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+}
+
+.contact-social span:hover {
+  color: white;
+}
+
+.contact-icons {
+  height: 40px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa,
+.fa-duotone {
+  margin: 0 10px;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-envelope {
+  background-color: white;
+  color: black;
+}
+
+.fa-linkedin:hover {
+  background: #3b5998;
+  color: white;
+  transition: 500ms ease;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #3b5998;
+  transition: 500ms ease;
+}
+
+.fa-github:hover {
+  background: #131010;
+  color: white;
+  transition: 500ms ease;
+}
+
+.fa-github {
+  background: white;
+  color: #131010;
+  transition: 500ms ease;
 }
 
 /* ----- Media Queries ----- */
@@ -391,5 +490,13 @@ p {
 
   .approved {
     font-size: 3.5rem;
+  }
+
+  .contacts-container {
+    text-align: center;
+  }
+
+  .contacts-container span {
+    font-size: 2rem;
   }
 }
