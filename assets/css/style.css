@@ -260,6 +260,7 @@ p {
   margin-bottom: 8rem;
   font-size: 3.2rem;
   text-align: center;
+  font-weight: bolder;
 }
 
 .projects-text {
@@ -393,6 +394,20 @@ p {
   background: white;
   color: #131010;
   transition: 500ms ease;
+}
+
+/* ..... Footer ..... */
+
+.footer {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 /* ----- Media Queries ----- */
