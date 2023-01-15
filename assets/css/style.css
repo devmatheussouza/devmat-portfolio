@@ -309,6 +309,28 @@ p {
   border: 5px solid black;
 }
 
+.country-info {
+  text-align: center;
+}
+
+.country-info h3 {
+  margin-bottom: 0 !important;
+}
+
+.site-country-info a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(56, 0, 56);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.site-country-info a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 /* ..... Contact ..... */
 
 .contact-content {
