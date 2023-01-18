@@ -53,9 +53,7 @@ h2 {
 }
 
 .main-bg {
-  background-image: url(/assets/images/spectrum-gradient.svg);
-  background-size: cover;
-  background-position: center center;
+  background: linear-gradient(45deg, var(--secondary-color), rgb(43, 43, 255));
   color: var(--primary-color);
 }
 
@@ -314,15 +312,17 @@ p {
 }
 
 .country-info h3 {
+  color: var(--primary-color);
   margin-bottom: 0 !important;
 }
 
 .site-country-info a {
+  font-style: italic;
   text-align: center;
   text-decoration: none;
-  color: rgb(56, 0, 56);
+  color: black;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   margin-bottom: 2rem;
 }
 
