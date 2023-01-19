@@ -331,6 +331,11 @@ p {
   color: white;
 }
 
+.spring-img {
+  /* border: 3px solid green; */
+  background-color: rgb(101, 172, 43);
+}
+
 /* ..... Contact ..... */
 
 .contact-content {
