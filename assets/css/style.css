@@ -307,16 +307,16 @@ p {
   border: 5px solid black;
 }
 
-.country-info {
+.project-info-container {
   text-align: center;
 }
 
-.country-info h3 {
+.project-info-container h3 {
   color: var(--primary-color);
   margin-bottom: 0 !important;
 }
 
-.site-country-info a {
+.project-info a {
   font-style: italic;
   text-align: center;
   text-decoration: none;
@@ -326,7 +326,7 @@ p {
   margin-bottom: 2rem;
 }
 
-.site-country-info a:hover {
+.project-info a:hover {
   text-decoration: none;
   color: white;
 }
